@@ -6,5 +6,9 @@ public class Position : MonoBehaviour {
 	void OnDrawGizmos() {
 		Gizmos.DrawWireSphere(transform.position,1);
 	}
+	
+	void Start () {
+		//nothing
+	}
 
 }
